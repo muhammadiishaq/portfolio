@@ -1,0 +1,23 @@
+[
+	{
+		"dates": "November 2024 · Present",
+		"role": "DevOps Engineer",
+		"company": "Trainwithshubham",
+		"description": "Intern, Align DevOps and Cloud strategies with client needs, ensuring agile and impactful solutions that evolve with industry trends.",
+		"logo": "/assets/images/experiences/Trainwithshubham.png"
+	},
+	{
+		"dates": "October 2024 · Present",
+		"role": "Community Lead",
+		"company": "Trainwithshubham",
+		"description": "Responsible for mobile front-end development of e-commerce platform.",
+		"logo": "/assets/images/experiences/Trainwithshubham.png"
+	},
+	{
+		"dates": "February 2023 · March 2023 ",
+		"role": "Python Developer",
+		"company": "NIELIT",
+		"description": "Intern, involved in the development of python based applications.",
+		"logo": "/assets/images/experiences/nielit.png"
+	}
+]

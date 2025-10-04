@@ -1,0 +1,68 @@
+---
+import Footer from "../components/footer.astro";
+import Header from "../components/header.astro";
+import SquareLines from "../components/square-lines.astro";
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+
+    <!-- Prevent flash of wrong theme -->
+    <script is:inline>
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const darkModeStorage = localStorage.getItem("dark_mode");
+      
+      if (darkModeStorage === "true" || (darkModeStorage === null && prefersDark)) {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+    </script>
+
+    <style>
+      .prose img {
+        border-radius: 20px;
+      }
+      
+      body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+
+      /* Light mode styles */
+      body {
+        background-color: white;
+        color: rgb(64, 64, 64);
+      }
+
+      /* Dark mode styles */
+      .dark body {
+        background-color: rgb(10, 10, 10);
+        color: rgb(229, 229, 229);
+      }
+
+      main {
+        flex: 1;
+      }
+    </style>
+    <link rel="icon" type="image/x-icon" href="../assets/images/favicon.png" />
+    <script src="../assets/css/main.css"></script>
+    <Fragment set:html={import.meta.env.HEADER_INJECT} />
+  </head>
+  <body class="antialiased bg-white dark:bg-neutral-950">
+    <SquareLines />
+    <Header />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+    <script src="../assets/js/main.js"></script>
+    <Fragment set:html={import.meta.env.FOOTER_INJECT} />
+  </body>
+</html>

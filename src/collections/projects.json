@@ -1,0 +1,68 @@
+[
+	{
+		"name": "portfolio",
+		"description": "A Personal Portfolio",
+		"image": "/assets/images/projects/portfolio.png",
+		"url": "https://github.com/iemafzalhassan/portfolio.png"
+	},
+	{
+		"name": "full-stack_chatApp",
+		"description": "Welcome to the Full Stack Realtime Three Tier Chat App project, where we're building a scalable and secure real-time chat experience using the latest technologies",
+		"image": "/assets/images/projects/chatapp.png",
+		"url": "https://github.com/iemafzalhassan/full-stack_chatApp"
+	},
+	{
+		"name": "2048 Game",
+		"description": "Containerized 2048 Game: Play the Classic Puzzle Anywhere, Anytime!",
+		"image": "/assets/images/projects/2048-Game.png",
+		"url": "https://github.com/iemafzalhassan/Docker-for-DevOps/tree/main/2048-game"
+	},
+	{
+		"name": "Banking System",
+		"description": "Multi-Tier Banking App: Scalable Finance Solution Built with Java and Spring Boot",
+		"image": "/assets/images/projects/bankapp.png",
+		"url": "https://github.com/iemafzalhassan/Docker-for-DevOps/tree/main/spring_boot_bankapp"
+		},
+	{
+		"name": "Email.ML",
+		"description": "Minimalist temporary Email.",
+		"image": "/assets/images/projects/email.ml.png",
+		"url": "https://email.ml"
+	},
+	{
+		"name": "Wanderlust",
+		"description": "WanderLust: An Open-Source Travel Blog to Boost React and Git Skills",
+		"image": "/assets/images/projects/wanderlust.png",
+		"url": "https://github.com/iemafzalhassan/Docker-for-DevOps/tree/main/wanderlust"
+	},
+	{
+		"name": "DNS.Surf",
+		"description": "Querying DNS Resolution Results in Different Regions Worldwide.",
+		"image": "/assets/images/projects/dns.surf.png",
+		"url": "https://dns.surf"
+	},
+	{
+		"name": "HTML.ZONE",
+		"description": "Web Toolbox.",
+		"image": "/assets/images/projects/html.zone.png",
+		"url": "https://html.zone"
+	},
+	{
+		"name": "Sink",
+		"description": "A Simple / Speedy / Secure Link Shortener with Analytics.",
+		"image": "/assets/images/projects/sink.cool.png",
+		"url": "https://sink.cool"
+	},
+	{
+		"name": "BroadcastChannel",
+		"description": "Turn your Telegram Channel into a MicroBlog.",
+		"image": "/assets/images/projects/broadcast-channel.png",
+		"url": "https://github.com/ccbikai/BroadcastChannel"
+	},
+	{
+		"name": "L(O*62).ONG",
+		"description": "Make your URL looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooonger",
+		"image": "/assets/images/projects/long.png",
+		"url": "https://loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo.ong"
+	}
+]
