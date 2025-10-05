@@ -152,8 +152,8 @@ If you like this project:
 ## Thanks for supporting this project 💙
 🔗 Follow Me for More Content
 
-LinkedIn
+- [GitHub](https://github.com/muhammadiishaq)  
+- [LinkedIn](https://www.linkedin.com/in/muhammadishaq-khan/)
+- [Mediam](https://medium.com/@muhammadishaqpak801)  
 
-GitHub
-
-🔥 With this setup, you have not only built a cool Gallery App, but also learned how to apply DevOps practices (CI/CD, Docker, Scanning, Deployment) to make your app production-ready.
+## 🔥 With this setup, you have not only built a cool Gallery App, but also learned how to apply DevOps practices (CI/CD, Docker, Scanning, Deployment) to make your app production-ready.
